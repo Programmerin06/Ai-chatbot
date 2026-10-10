@@ -4,7 +4,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { createServer as createViteServer } from 'vite';
 import { GoogleGenAI } from '@google/genai';
-import { backendStorage } from './server/storage';
+import { backendStorage } from './server/storage.ts';
 
 dotenv.config();
 
